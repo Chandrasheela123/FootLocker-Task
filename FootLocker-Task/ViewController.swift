@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate {
  //Function to display data in tableview
     func databinding(){
         
-        MarvelModel.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: ViewControllerCell.self)){
+        MarvelModel.fetchData().bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: ViewControllerCell.self)){
             (row, album, cell) in
             cell.label1.text = album.data.results[0].name
             cell.label2.text = album.data.results[0].description
