@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDD78C429A4BD4F005A9BB5 /* ViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD78C329A4BD4F005A9BB5 /* ViewControllerCell.swift */; };
+		AFDD78CA29A5E716005A9BB5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD78C929A5E716005A9BB5 /* DataModel.swift */; };
+		AFDD78CC29A63BE2005A9BB5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD78CB29A63BE2005A9BB5 /* CollectionViewCell.swift */; };
+		AFDD78CE29A63C17005A9BB5 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDD78CD29A63C17005A9BB5 /* CollectionVC.swift */; };
+		AFEAD34029A3547900687F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD33F29A3547900687F46 /* AppDelegate.swift */; };
+		AFEAD34229A3547900687F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD34129A3547900687F46 /* SceneDelegate.swift */; };
+		AFEAD34429A3547900687F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD34329A3547900687F46 /* ViewController.swift */; };
+		AFEAD34729A3547900687F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEAD34529A3547900687F46 /* Main.storyboard */; };
+		AFEAD34929A3547A00687F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEAD34829A3547A00687F46 /* Assets.xcassets */; };
+		AFEAD34C29A3547A00687F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEAD34A29A3547A00687F46 /* LaunchScreen.storyboard */; };
+		AFEAD35729A392BD00687F46 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAD35629A392BD00687F46 /* Data.swift */; };
+		C1FB78C96FBF58552F8AD977 /* Pods_FootLocker_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49AE39AFEE8C805CD23205A /* Pods_FootLocker_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4850D62E011FDD7085D967F4 /* Pods-FootLocker-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootLocker-Task.release.xcconfig"; path = "Target Support Files/Pods-FootLocker-Task/Pods-FootLocker-Task.release.xcconfig"; sourceTree = "<group>"; };
+		9D8C0C6C99308DFE59EA84AC /* Pods-FootLocker-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootLocker-Task.debug.xcconfig"; path = "Target Support Files/Pods-FootLocker-Task/Pods-FootLocker-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		AFDD78C329A4BD4F005A9BB5 /* ViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCell.swift; sourceTree = "<group>"; };
+		AFDD78C929A5E716005A9BB5 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AFDD78CB29A63BE2005A9BB5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AFDD78CD29A63C17005A9BB5 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		AFEAD33C29A3547900687F46 /* FootLocker-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootLocker-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEAD33F29A3547900687F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFEAD34129A3547900687F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFEAD34329A3547900687F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFEAD34629A3547900687F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFEAD34829A3547A00687F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFEAD34B29A3547A00687F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFEAD34D29A3547A00687F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEAD35629A392BD00687F46 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B49AE39AFEE8C805CD23205A /* Pods_FootLocker_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootLocker_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFEAD33929A3547900687F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FB78C96FBF58552F8AD977 /* Pods_FootLocker_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6FB98CF52F4FC540440643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49AE39AFEE8C805CD23205A /* Pods_FootLocker_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD77D1DC3134A6C399AB4DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C0C6C99308DFE59EA84AC /* Pods-FootLocker-Task.debug.xcconfig */,
+				4850D62E011FDD7085D967F4 /* Pods-FootLocker-Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFEAD33329A3547900687F46 = {
+			isa = PBXGroup;
+			children = (
+				AFEAD33E29A3547900687F46 /* FootLocker-Task */,
+				AFEAD33D29A3547900687F46 /* Products */,
+				ABD77D1DC3134A6C399AB4DC /* Pods */,
+				7C6FB98CF52F4FC540440643 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEAD33D29A3547900687F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFEAD33C29A3547900687F46 /* FootLocker-Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFEAD33E29A3547900687F46 /* FootLocker-Task */ = {
+			isa = PBXGroup;
+			children = (
+				AFEAD33F29A3547900687F46 /* AppDelegate.swift */,
+				AFEAD34129A3547900687F46 /* SceneDelegate.swift */,
+				AFEAD34329A3547900687F46 /* ViewController.swift */,
+				AFEAD34529A3547900687F46 /* Main.storyboard */,
+				AFEAD34829A3547A00687F46 /* Assets.xcassets */,
+				AFEAD34A29A3547A00687F46 /* LaunchScreen.storyboard */,
+				AFEAD34D29A3547A00687F46 /* Info.plist */,
+				AFEAD35629A392BD00687F46 /* Data.swift */,
+				AFDD78C329A4BD4F005A9BB5 /* ViewControllerCell.swift */,
+				AFDD78C929A5E716005A9BB5 /* DataModel.swift */,
+				AFDD78CB29A63BE2005A9BB5 /* CollectionViewCell.swift */,
+				AFDD78CD29A63C17005A9BB5 /* CollectionVC.swift */,
+			);
+			path = "FootLocker-Task";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFEAD33B29A3547900687F46 /* FootLocker-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEAD35029A3547A00687F46 /* Build configuration list for PBXNativeTarget "FootLocker-Task" */;
+			buildPhases = (
+				73C7A9C594A237ABE90515E8 /* [CP] Check Pods Manifest.lock */,
+				AFEAD33829A3547900687F46 /* Sources */,
+				AFEAD33929A3547900687F46 /* Frameworks */,
+				AFEAD33A29A3547900687F46 /* Resources */,
+				B1E6FE86583493E7362CA6A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FootLocker-Task";
+			productName = "FootLocker-Task";
+			productReference = AFEAD33C29A3547900687F46 /* FootLocker-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFEAD33429A3547900687F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AFEAD33B29A3547900687F46 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AFEAD33729A3547900687F46 /* Build configuration list for PBXProject "FootLocker-Task" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFEAD33329A3547900687F46;
+			productRefGroup = AFEAD33D29A3547900687F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFEAD33B29A3547900687F46 /* FootLocker-Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFEAD33A29A3547900687F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEAD34C29A3547A00687F46 /* LaunchScreen.storyboard in Resources */,
+				AFEAD34929A3547A00687F46 /* Assets.xcassets in Resources */,
+				AFEAD34729A3547900687F46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73C7A9C594A237ABE90515E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FootLocker-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E6FE86583493E7362CA6A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FootLocker-Task/Pods-FootLocker-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FootLocker-Task/Pods-FootLocker-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FootLocker-Task/Pods-FootLocker-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFEAD33829A3547900687F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEAD34429A3547900687F46 /* ViewController.swift in Sources */,
+				AFEAD34029A3547900687F46 /* AppDelegate.swift in Sources */,
+				AFDD78CE29A63C17005A9BB5 /* CollectionVC.swift in Sources */,
+				AFEAD34229A3547900687F46 /* SceneDelegate.swift in Sources */,
+				AFDD78CC29A63BE2005A9BB5 /* CollectionViewCell.swift in Sources */,
+				AFDD78C429A4BD4F005A9BB5 /* ViewControllerCell.swift in Sources */,
+				AFEAD35729A392BD00687F46 /* Data.swift in Sources */,
+				AFDD78CA29A5E716005A9BB5 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFEAD34529A3547900687F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEAD34629A3547900687F46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFEAD34A29A3547A00687F46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEAD34B29A3547A00687F46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFEAD34E29A3547A00687F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFEAD34F29A3547A00687F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFEAD35129A3547A00687F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8C0C6C99308DFE59EA84AC /* Pods-FootLocker-Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FootLocker-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capgemini.FootLocker-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFEAD35229A3547A00687F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4850D62E011FDD7085D967F4 /* Pods-FootLocker-Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FootLocker-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capgemini.FootLocker-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFEAD33729A3547900687F46 /* Build configuration list for PBXProject "FootLocker-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEAD34E29A3547A00687F46 /* Debug */,
+				AFEAD34F29A3547A00687F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEAD35029A3547A00687F46 /* Build configuration list for PBXNativeTarget "FootLocker-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEAD35129A3547A00687F46 /* Debug */,
+				AFEAD35229A3547A00687F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFEAD33429A3547900687F46 /* Project object */;
+}
