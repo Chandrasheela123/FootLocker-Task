@@ -26,15 +26,35 @@ struct Response : Decodable{
     var name : String
     var description : String
     var thumbnail : Img
+    var series, comics, stories, events : Comics
 
 
 }
 
 struct Img : Decodable{
     var path : String
-
-
+    let thumbnailExtension: String?
+    
+    enum CodingKeys: String, CodingKey {
+            case path
+            case thumbnailExtension = "extension"
+    
+        }
 }
+
+struct Comics : Decodable{
+    var available : Int
+    var items : [SeriesItems]
+}
+
+
+struct SeriesItems : Decodable{
+    var resourceURI : String
+    var name : String
+}
+
+
+
 
 
 

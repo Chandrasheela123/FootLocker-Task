@@ -8,19 +8,17 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Kingfisher
 
-class ViewControllerCell: UITableViewCell {
-
-    @IBOutlet weak var img: UIImageView!
-    @IBOutlet weak var label2: UILabel!
-    @IBOutlet weak var label1: UILabel!
+class CharacterTableViewCell: UITableViewCell {
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var characterImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         
         // Initialization code
     }
-
-    
+   
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
@@ -28,3 +26,9 @@ class ViewControllerCell: UITableViewCell {
     }
 
 }
+
+
+
+    
+   
+
