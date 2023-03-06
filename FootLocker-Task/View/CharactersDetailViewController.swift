@@ -7,6 +7,8 @@
 
 import UIKit
 import Kingfisher
+import RxCocoa
+import RxSwift
 
 class CharactersDetailViewController: UIViewController {
 
@@ -29,8 +31,9 @@ class CharactersDetailViewController: UIViewController {
     var strStories = ""
     var strSeries = ""
     var strImage : UIImage?
+ 
     
-    var characterImage = Model()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,16 +43,14 @@ class CharactersDetailViewController: UIViewController {
         eventLabel.text = strevent
         storiesLabel.text = strStories
         seriesLabel.text = strSeries
-        charactersImage.image = strImage
-        
+        charactersImage.image = strImage 
         
 
         // Do any additional setup after loading the view.
     }
     
 
-    @IBAction func SeriesButtonClick(_ sender: Any) {
-    }
+    
     /*
     // MARK: - Navigation
 
