@@ -17,6 +17,7 @@ struct MarvelData: Decodable{
 }
 
 struct Res: Decodable{
+    
         var results : [Response]
 
 }

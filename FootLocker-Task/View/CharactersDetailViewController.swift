@@ -11,10 +11,8 @@ import RxCocoa
 import RxSwift
 
 class CharactersDetailViewController: UIViewController {
-
     
-    let MarvelModel = Model()
-    
+    @IBOutlet weak var imageBackgroundView: UIView!
     @IBOutlet weak var characterDescription: UITextView!
     @IBOutlet weak var charactersImage: UIImageView!
     @IBOutlet weak var characterName: UILabel!
@@ -23,34 +21,25 @@ class CharactersDetailViewController: UIViewController {
     @IBOutlet weak var storiesLabel: UILabel!
     @IBOutlet weak var seriesLabel: UILabel!
     
-    
-    var strName = ""
-    var strDescription = ""
-    var strComic = ""
-    var strevent = ""
-    var strStories = ""
-    var strSeries = ""
-    var strImage : UIImage?
- 
-    
-    
+    var strImage = ""
+    var charData : Response?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        characterName.text = strName
-        characterDescription.text = strDescription
-        comicLabel.text = strComic
-        eventLabel.text = strevent
-        storiesLabel.text = strStories
-        seriesLabel.text = strSeries
-        charactersImage.image = strImage 
         
+      //  SetCornerRadius().cornerRadius(view: imageBackgroundView)
+        characterName.text = charData?.name
+        characterDescription.text = charData?.description
+        comicLabel.text = "\(charData?.comics.available ?? 0)"
+        eventLabel.text = "\(charData?.events.available ?? 0)"
+        storiesLabel.text = "\(charData?.stories.available ?? 0)"
+        seriesLabel.text = "\(charData?.series.available ?? 0)"
+        
+        let urlString = URL(string : strImage)
+        charactersImage.kf.setImage(with: urlString)
 
         // Do any additional setup after loading the view.
     }
-    
-
-    
     /*
     // MARK: - Navigation
 

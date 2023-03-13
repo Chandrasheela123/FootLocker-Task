@@ -12,10 +12,14 @@ import Kingfisher
 
 class CharacterTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var cellBackgroundView: UIView!
     @IBOutlet weak var characterImage: UIImageView!
+    @IBOutlet weak var nameBackgroundView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+//        SetCornerRadius().cornerRadius(view: cellBackgroundView)
+//        SetCornerRadius().cornerRadius(view: nameBackgroundView)
         // Initialization code
     }
    
